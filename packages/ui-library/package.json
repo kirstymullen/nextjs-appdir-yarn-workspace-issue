@@ -1,0 +1,21 @@
+{
+  "name": "ui-library",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "tsc --project tsconfig.build-cjs.json"
+  },
+  "peerDependencies": {
+    "next": "13.3.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "framer-motion": "^10.12.10"
+  }
+}
